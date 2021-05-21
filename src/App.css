@@ -1,0 +1,58 @@
+
+.Nostyle{
+  border: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+dd{
+  margin-left: 40px;
+}
+dl{
+  display: inline-block;
+  margin: 10px;
+}
+.mySections p.mysectiontext { 
+  text-align: justify;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  height: 100%;
+}
+h1{
+  color: #343a40;
+}
+footer{
+  background-color: #343a40;
+  width: 100%;
+  padding: 5%;
+}
+.myLink1, a{
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+}
+.myFooter{
+  padding: 25px 16px;
+}
+.footerLastSection{
+  text-align: right;
+}
+.description{
+  background-color: #343a40;
+  color: white;
+  text-align: justify;
+  padding: 15px;
+}
+.menuSections {
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footerLastSection{
+    text-align: left;
+    padding: 2rem 0;
+  }
+  .mySections {
+    padding: 1rem;
+  } 
+}
