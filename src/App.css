@@ -11,12 +11,13 @@ dl{
   display: inline-block;
   margin: 10px;
 }
-.mySections p.mysectiontext { 
+.mySections .mysectiontext { 
   text-align: justify;
   padding: 10px;
   margin: 5px;
   border: 1px solid black;
   height: 100%;
+  border-radius: 5px;
 }
 h1{
   color: #343a40;

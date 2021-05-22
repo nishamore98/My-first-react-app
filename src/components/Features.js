@@ -6,7 +6,7 @@ function Features(){
             <h1>Features</h1>
             <Row className="m-0">
             <Col xs={12} sm={6} className="mySections">
-                <p className="mysectiontext">
+                <div className="mysectiontext">
                 <Row>
                     <Col sm={4}>
                     <dl>
@@ -33,41 +33,41 @@ function Features(){
                     </dl>
                     </Col>
                 </Row>
-                </p>
+                </div>
             </Col>
             
             <Col xs={12} sm={6} className="mySections">
-                <p className="mysectiontext">
+                <div className="mysectiontext">
                 <Row>
                     <Col>
-                    <ol>
-                        <li>loren ipsum</li>
-                        <li>loren ipsum</li>
-                        <li>loren ipsum</li>
-                        <li>loren ipsum</li>
-                        <li>loren ipsum</li>
-                    </ol>
+                        <ol>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                        </ol>
                     </Col>
                     <Col>
-                    <ul>
-                        <li>loren ipsum</li>
-                        <li>loren ipsum</li>
-                        <li>loren ipsum</li>
-                        <li>loren ipsum</li>
-                        <li>loren ipsum</li>
-                    </ul>
+                        <ul>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                        </ul>
                     </Col>
                     <Col>
-                    <strong> Select Your Age</strong><br/>
-                    <input type="radio" name="age"/>
-                    <label>0-30</label><br/>
-                    <input type="radio" name="age" />
-                    <label>31-60</label><br/>
-                    <input type="radio" name="age"/>
-                    <label>61-100</label>
+                        <strong> Select Your Age</strong><br/>
+                        <input type="radio" name="age"/>
+                        <label>0-30</label><br/>
+                        <input type="radio" name="age" />
+                        <label>31-60</label><br/>
+                        <input type="radio" name="age"/>
+                        <label>61-100</label>
                     </Col>
                 </Row>
-                </p>
+                </div>
             </Col>
             </Row>
         </div>     
