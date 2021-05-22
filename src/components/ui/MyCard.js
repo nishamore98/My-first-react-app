@@ -4,13 +4,13 @@ function MyCard (props) {
     return (
         <>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="https://tse1.mm.bing.net/th?id=OIP.v7gEKUNUq-Jy-ARL41hoxAHaE7&pid=Api&rs=1&c=1&qlt=95&w=152&h=101" />
+                <Card.Img variant="top" src={props.pricingValue.imgUrl} />
                 <Card.Body>
-                    <Card.Title>{props.name}</Card.Title>
+                    <Card.Title>{props.pricingValue.name}</Card.Title>
                     <Card.Text>
-                        {props.textValue}
+                        {props.pricingValue.textValue}
                     </Card.Text>
-                    <Button variant="outline-dark">Go somewhere</Button>
+                    <Button variant="outline-dark">{props.pricingValue.btnText}</Button>
                 </Card.Body>
             </Card>
         </>
