@@ -30,7 +30,7 @@ function MyTable() {
     ];
     return (
         <>
-            <Table striped bordered hover variant="dark">
+            <Table striped bordered hover variant="dark" className="candidatesTable">
                 <thead>
                     <tr>
                         <th>Sr. No.</th>
