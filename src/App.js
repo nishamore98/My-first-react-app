@@ -1,7 +1,8 @@
+import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Features from './components/Features';
-import Pricing from './components/Pricing';
+import Blog from './components/Blog';
 import CandidateList from './components/CandidateList';
 import Description from './components/Description';
 import Footer from './components/Footer';
@@ -13,7 +14,7 @@ function App() {
     <CandidateList />
     <Description />
     <Features />
-    <Pricing />
+    <Blog />
     <Footer />
   </>
   )

@@ -1,3 +1,4 @@
+import React from 'react';
 import {Row, Col} from 'react-bootstrap';
 
 function Features(){
@@ -58,13 +59,13 @@ function Features(){
                         </ul>
                     </Col>
                     <Col>
-                        <strong> Select Your Age</strong><br/>
+                        <strong> Select your age</strong><br/>
                         <input type="radio" name="age"/>
-                        <label>0-30</label><br/>
+                        <label className="radioLabels"> 0-30</label><br/>
                         <input type="radio" name="age" />
-                        <label>31-60</label><br/>
+                        <label className="radioLabels"> 31-60</label><br/>
                         <input type="radio" name="age"/>
-                        <label>61-100</label>
+                        <label className="radioLabels"> 61-100</label>
                     </Col>
                 </Row>
                 </div>
