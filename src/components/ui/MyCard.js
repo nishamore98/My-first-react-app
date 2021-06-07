@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Button } from "react-bootstrap";
+import Likebtn from '../Likebtn';
 
 function MyCard (props) {
     return (
@@ -7,7 +8,10 @@ function MyCard (props) {
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={props.pricingValue.imgUrl} width="100%" height="190px" />
                 <Card.Body>
-                    <Card.Title>{props.pricingValue.name}</Card.Title>
+                    <Card.Title>
+                        {props.pricingValue.name}
+                        <Likebtn />
+                    </Card.Title>
                     <Card.Text>
                         {props.pricingValue.textValue}
                     </Card.Text>
